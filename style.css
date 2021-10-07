@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 3rem;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.header-container .title {
+  font-weight: bold;
+}
+
+.navigation {
+  color: #b2d6b9;
+}
+
+.search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.7rem;
+}
+
+.search-text {
+  border: solid 2px #b2d6b9;
+  border-radius: 20px;
+  color: #b2d6b9;
+  outline-color: #7bb687;
+  text-align: center;
+  height: 2.5rem;
+}
+
+.search-text:active {
+  outline: none;
+}
+
+.search-text::placeholder {
+  color: #b2d6b9;
+}
+
+.fa-search {
+  color: #b2d6b9;
+}
+
+.loginBtn {
+  border-radius: 20px;
+  background-color: #54a464;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.loginBtn:active {
+  transform: scale(1.05);
+}
+
+.loginBtn:hover {
+  background-image: linear-gradient(to right, #55c06b, #438851);
+}
+
+.middle-container {
+  position: relative;
+}
+
+.middle-container .image {
+  width: 100%;
+  height: 40%;
+}
+
+.middle-container .lower-bar {
+  width: 100%;
+  background-color: rgb(108, 143, 108, 0.4);
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.middle-container .lower-bar .name {
+  font-weight: 700;
+  padding-left: 3.5%;
+}
+
+.middle-container .lower-bar .duration {
+  padding-left: 3.5%;
+  font-weight: 500;
+}
+
+.middle-container .lower-bar .perks {
+  padding-left: 3.5%;
+  font-weight: 500;
+}
+
+.enrollBtn {
+  position: absolute;
+  right: 5%;
+  top: 9%;
+  border-radius: 50px;
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: #7bb687;
+  color: white;
+  font-weight: 700;
+}
+
+.info-container {
+    position: relative;
+    width: 100%;
+}
+
+.about { 
+  border: solid 2px black;
+  border-radius: 10px;
+  top: 2rem;
+}
+
+.aboutTitle {
+    text-align: center;
+}
+.aboutContent {
+    padding: 20px;
+}
+
+.courseBy{
+    top: 2rem;
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 500%;
+}
+
+.courseBy img {
+    width: 40%;
+    height: 40%;
+}
+
+.courseBy .title {
+    text-align:center;
+    font-weight: 700;
+}
+
+.nameCourseNumber .googleName{
+    font-weight: 700;
+}
+
+.left-side{
+    display: flex;
+    top: 2rem;
+    flex-direction: column;
+    position: absolute;
+    width: 75%;
+}
+
+.right-side{
+    top:2rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80%;
+    width: 20%;
+}
+
+.reviews {
+  border: solid 2px black;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+.reviewsTitle {
+  text-align: center;
+  font-weight: 700;
+}
+
+.profileInfo{
+  margin-left: 10px;
+}
+
+.profilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profileName {
+  position: absolute;
+
+}
